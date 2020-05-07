@@ -3,7 +3,9 @@ sudo: required
 stages:
   - compile
   - test
-
+arch:
+    - arm64
+    - amd64
 cache:
   directories:
     - .cachedir
